@@ -1,0 +1,17 @@
+<h1>致敬生命！</h1>
+<img src="./img/img1.jpg" alt="">
+
+<script>
+    $(function(){
+        $.ajax({
+            url:"/getdate",
+            type:"POST",
+            data:{
+                "query":'username'
+            },
+            success:function (date) {
+                console.log(date)
+            }
+        })
+    })
+</script>
