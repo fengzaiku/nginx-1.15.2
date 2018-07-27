@@ -10,8 +10,12 @@ nginx使用include引用外部配置等
         全局安装：pm2 install pm2 -g
         分别在对应的目录下pm2 start ecosystem.config.js
 3，在nginx.exe目录下start nginx.exe启动nginx
+<<<<<<< HEAD
 4，页面打开locahost
 
 
 
 
+=======
+4，页面打开locahost
+>>>>>>> dev
